@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 5px;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 75%;
+    padding-top: 25px;
+    width:25%;
+    border-radius: 15px;
+    background-color: rgb(231, 140, 60);
+
+}
+
+.buttons{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    height: 75px;
+    width: 75px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.itext{
+    width: 21.8vw;
+    height: 55px;
+    margin-bottom: 15px;
+    margin-left: 14px;
+    background-color: white;
+    padding: 8px;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    border: 2px solid black;
+}
